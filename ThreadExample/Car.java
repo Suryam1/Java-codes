@@ -18,7 +18,7 @@ public class Car extends Thread {
 				e.printStackTrace();
 			}
 		}
-		
+		System.out.println(getName()+" Cleared Lap "+10);
 		System.out.println(getName()+" got the "+count+" position");
 		count++;
 	}
