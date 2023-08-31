@@ -94,7 +94,11 @@ public class Playlist {
 		
 		
 		ListIterator<String> teamListIterator = newTeam.listIterator(newTeam.size());
-		
+		System.out.println("All Players in reverse order ------");
+		while(teamListIterator.hasPrevious()) {
+			String player = teamListIterator.previous();
+			System.out.println(player);
+		}
 		
 		
 	}
