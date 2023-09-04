@@ -49,7 +49,7 @@ public class LoginUserInterface extends User {
 		userPreferences=tempData.get(7);
 		for(Map.Entry<String, List<String>> entry : femaleUsers.entrySet()) {
 			tempData2=entry.getValue();
-			System.out.println(tempData2);
+//			System.out.println(tempData2);
 			if(userPreferences.equalsIgnoreCase(tempData2.get(6))) {
 				flag=1;
 				System.out.println("Username is "+entry.getKey());

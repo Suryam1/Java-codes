@@ -9,7 +9,7 @@ public abstract class User {
 
 	protected static HashMap<String, List<String>> maleUsers;
 	protected static HashMap<String, List<String>> femaleUsers;
-	private static List<String> tempMale= new ArrayList<String>(Arrays.asList("Male","Satvik","Bharadwaj","3210987654321","20","7894561230","XYZ","ABC"));
+	private static List<String> tempMale= new ArrayList<String>(Arrays.asList("Male","Aayush","Khosla","3210987654321","20","7894561230","XYZ","ABC"));
 	private static List<String> tempFemale= new ArrayList<String>(Arrays.asList("Female","Aayushi","Khosla","3210987654321","25","7894561230","ABC","XYZ"));
 	
 
@@ -19,7 +19,7 @@ public abstract class User {
 		
 		femaleUsers = new HashMap<String, List<String>>();
 		
-		maleUsers.put("Satvik", tempMale);
+		maleUsers.put("Aayush", tempMale);
 		femaleUsers.put("Aayushi", tempFemale);
 	}
 	
