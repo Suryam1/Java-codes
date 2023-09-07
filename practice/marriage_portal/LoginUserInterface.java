@@ -72,7 +72,6 @@ public class LoginUserInterface extends User {
 		this.username=username;
 		System.out.println("Kindly Select any Option");
 		System.out.println("1. Search For Matches");
-//		System.out.println("2. Edit Details");
 		System.out.println("2. ShowDetails");
 		System.out.println("3. LogOut");
 		choice=input.nextLine().trim();
@@ -80,9 +79,6 @@ public class LoginUserInterface extends User {
 			if(choice.equals("1")) {
 				searchFemaleResults();
 			}
-//			else if(choice.equals("2")){
-//				
-//			}
 			else if(choice.equals("2")) {
 				System.out.println("Your Username is "+username);
 				for(int i=0;i<label.size();i++) {
@@ -91,7 +87,6 @@ public class LoginUserInterface extends User {
 			}
 			System.out.println("Kindly Select any Option");
 			System.out.println("1. Search For Matches");
-//			System.out.println("2. Edit Details");
 			System.out.println("2. ShowDetails");
 			System.out.println("3. LogOut");
 			choice=input.nextLine().trim();
@@ -104,19 +99,13 @@ public class LoginUserInterface extends User {
 		tempData=femaleUsers.get(username);
 		System.out.println("Kindly Select any Option");
 		System.out.println("1. Search For Matches");
-//		System.out.println("2. Edit Details");
 		System.out.println("2. ShowDetails");
 		System.out.println("3. LogOut");
 		choice=input.nextLine().trim();
 		while(!(choice.equals("3"))) {
 			if(choice.equals("1")) {
 				searchMaleResults();
-			}
-//			else if(choice.equals("2")){
-//				
-//				
-//				
-//			}
+			}		
 			else if(choice.equals("2")) {
 				System.out.println("Your Username is "+username);
 				for(int i=0;i<label.size();i++) {
@@ -125,7 +114,6 @@ public class LoginUserInterface extends User {
 			}
 			System.out.println("Kindly Select any Option");
 			System.out.println("1. Search For Matches");
-//			System.out.println("2. Edit Details");
 			System.out.println("2. ShowDetails");
 			System.out.println("3. LogOut");
 			choice=input.nextLine().trim();
